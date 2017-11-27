@@ -23,8 +23,8 @@ describe('#math', () => {
 			expect(cover(2, 1)).to.equal(1);
 		});
 		
-		it('should return -1 when cover(1, 20) ', () => {
-			expect(cover(1, 20)).to.equal(-1);
+		it('should return -1 when cover(1, 2) ', () => {
+			expect(cover(1, 2)).to.equal(-1);
 		});
 		
 		it('should return 4 when cover(2, 2) ', () => {

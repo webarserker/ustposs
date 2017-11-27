@@ -24,7 +24,7 @@ describe('#math', () => {
 		});
 		
 		it('should return -1 when cover(1, 20) ', () => {
-			expect(cover(1, 2)).to.equal(-1);
+			expect(cover(1, 20)).to.equal(-1);
 		});
 		
 		it('should return 4 when cover(2, 2) ', () => {
