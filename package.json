@@ -1,0 +1,26 @@
+{
+  "name": "lx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/mocha.js",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/mocha.js"
+  },
+  "author": "lx",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1"
+  }
+}
